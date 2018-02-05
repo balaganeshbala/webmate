@@ -1,0 +1,120 @@
+.page-content{
+    width: 100%;
+}
+
+.creator-form{
+    width: 60%;
+    float: left;
+    //background-color: pink;
+    padding: 2% 5% 3% 5%;
+}
+
+#content-box{
+    margin-top: 2%;
+    width: 100%;
+    font-family: ubuntuC;
+    font-size: large;
+}
+
+#file-name{
+    margin-top: 3%;
+    width: 40%;
+    //padding: 3px 2px;
+    font-family: ubuntuC;
+    font-size: large;
+}
+
+label{
+    padding-top: 10px;
+}
+
+button{
+    width: 100px;
+    padding: 5px 3px;
+    border: none;
+    background-color: #3DAE5D;
+    color: #FFF;
+}
+
+.sidebar{
+    float: left;
+    width: 29%; 
+    height: 460px;
+    //background-color: skyblue;
+    border: gray thin solid;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.sidebar ul{
+    list-style: none;
+    display: block;
+}
+
+.sidebar ul li a{
+    line-height: 30px;
+    text-decoration: none;
+    color: #2A839F;
+    font-family: ubuntuC
+}
+
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    clear: left;
+    width: 100%;
+    //height: 8px;
+    //background-color: green;
+}
+
+.result{
+    display: block;
+    font-family: ubuntuC;
+}
+
+@media only screen and (max-width: 1085px){
+    .page-content{
+        width: 90%;
+    }
+    
+    .creator-form{
+        width: 100%;
+        float: left;
+        //background-color: pink;
+        padding: 2% 5% 5% 5%;
+    }
+
+    #content-box{
+        margin-top: 2%;
+        width: 100%;
+    }
+    
+    #file-name{
+        width: 100%;
+    }
+    
+    button{
+        margin-top: 15px;
+    }
+    
+    .result{
+        font-family: ubuntuR;
+        padding: 10px;
+    }
+    
+    .sidebar{
+        overflow-y: scroll;
+        float: left;
+        width: 110%; 
+        //background-color: skyblue;
+    }
+    
+    footer{
+        clear: left;
+        width: 100%;
+        height: 30px;
+        //background-color: green;
+    }
+}

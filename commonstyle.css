@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'ubuntuB'; /*a name to be used later*/
+    src: url('fonts/ubuntu/Ubuntu-B.ttf'); /*URL to font*/
+}
+    
+@font-face {
+    font-family: 'ubuntuC'; /*a name to be used later*/
+    src: url('fonts/ubuntu/Ubuntu-R.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'ubuntuM'; /*a name to be used later*/
+    src: url('fonts/ubuntu/Ubuntu-M.ttf'); /*URL to font*/
+}
+
+body{
+    margin: 0;
+    font-family: ubuntuB;
+    background-color: #FDFDFD;
+}
+
+.main-container{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.header{
+    width: 100%;
+}
+
+.site-name{
+    display: block;
+    padding: 2% 4%;
+    font-size: xx-large;
+}
+
+.menu-container ul{
+    list-style: none;
+    font-size: 100%;
+    padding: 10px;
+    padding-left: 0px;
+    background-color: #2BA166;
+    overflow: hidden;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.menu-container ul li{
+    display: inline;
+    float: left;
+    margin-left: 0;
+}
+
+.menu-container ul li a{
+    margin-left: 0;
+    display: inline;
+    padding: 10px 15px;
+    background-color: #2BA166;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu-container ul li a:hover, .menu-container ul li .active{
+    background-color: #3DAE5D;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 150px){
+    body{
+        margin: 0;
+        font-family: ubuntuB;
+        background-color: #FDFDFD;
+        font-size: 100%;
+    }
+
+    .main-container{
+        margin: auto;
+        width: 90%;
+        //background-color: pink;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .site-name{
+        display: block;
+        padding: 8% 4% 2% 4%;
+        font-size: x-large;
+    }
+
+    .menu-container ul{
+        padding: 10px;
+        list-style: none;
+        font-size: 100%;
+        background-color: #2BA166;
+        text-align: center;
+    }
+
+    .menu-container ul li{
+        //float: left;
+        width: 100%;
+    }
+
+    .menu-container ul li a{
+        margin: 0;
+        display: block;
+        background-color: #2BA166;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .menu-container ul li a:hover, .menu-container ul li .active{
+        background-color: #3DAE5D;
+    }
+}

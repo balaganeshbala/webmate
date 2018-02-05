@@ -1,0 +1,30 @@
+.content-title{
+    font-size: x-large;
+    padding: 20px 0px 0px 20px;
+}
+
+.text-content{
+    padding:40px 60px; 
+    line-height: 30px; 
+    font-family: ubuntuC ; 
+    font-size: 100%; 
+    text-align: justify; 
+    text-indent: 50px;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 150px){
+  
+    .content-title{
+        font-size: large;
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    .text-content{
+        padding: 4% 2%;
+        font-family: ubuntuC ; 
+        font-size: 95%; 
+        text-align: justify; 
+        text-indent: 50px;
+    }
+}
